@@ -1,0 +1,316 @@
+/* Type Selector: Body */
+body
+{
+	margin: 0;
+	font-family: 'Raleway', sans-serif;	
+}
+
+header{
+	width: 100%;
+	height:70px;
+	position:fixed;
+	z-index:1000;
+	background-color: rgba(28,4,23,0.3);
+	text-align:center;
+}
+
+#logo1{
+	float:left;
+	margin-right:10px;
+	margin-left:35px;
+}
+
+#logo2{
+	margin-top:7px;
+	float:left; 
+	margin-right:-15px;
+}
+
+footer p{
+	color:white;
+	position:absolute;
+	right:15px;
+	bottom:0px;	
+}
+/* ID Selector: titlebar */
+#headerbox {
+	min-width: 1200px;
+	margin:auto;
+	margin-top:0;
+	width:60%;
+	height:70px;
+	color:white;
+
+}
+
+/* ID Selector: background */
+.background
+{
+	min-width:1000px;
+	position:relative;
+	width: 100%;  
+	background-size: cover; 
+	background-color: rgb(28, 4, 23); 
+	height: 990px; 
+	background-position: 50% 0%; 
+	background-repeat: no-repeat no-repeat;
+	z-index:0;
+}
+
+/* ID Selector: overview */
+#overview  {
+	font-size:20px;
+	top:100px;
+	left:5%;
+	position:relative;
+	border: 0;
+	color:white;
+	width: 32%;
+	min-width: 600px;
+	max-width: 1500px; 
+	padding: 20px 50px 20px 50px;
+	border-radius: 20px;
+	height: 55%;
+	overflow: auto;
+	z-index:10;
+	background: rgba(28,4,23,0.5);
+ } 
+ 
+#awards {
+	font-size:20px;
+	top:35%;
+	margin:auto;
+	position:relative;
+	border: 0;
+	color:white;
+	width: 60%;
+	min-width: 900px;
+	max-width: 1500px; 
+	padding: 20px 40px 60px 40px;
+	border-radius: 20px;
+	overflow: auto;
+	z-index:10;
+	background: rgba(28,4,23,0.4);
+ } 
+ 
+#list1{
+	float:left;
+	width:47%;
+}
+
+#list2{
+	float:right;
+	width:47%;
+	margin-left:50px;
+}
+
+#discography {
+	font-size:20px;
+	top:200px;
+	margin:auto;
+	position:relative;
+	border: 0;
+	color:white;
+	width: 650px;
+	min-width: 650px;
+	max-width: 1500px; 
+	padding: 20px 40px 60px 40px;
+	border-radius: 20px;
+	overflow: auto;
+	z-index:10;
+	background: rgba(28,4,23,0.5);
+ } 
+ 
+#musicianship {
+	font-size:20px;
+	top:150px;
+	left:5%;
+	position:relative;
+	border: 0;
+	color:white;
+	width: 850px;
+	min-width: 650px;
+	max-width: 900px; 
+	padding: 20px 40px 60px 40px;
+	border-radius: 20px;
+	overflow: auto;
+	z-index:10;
+	background: rgba(28,4,23,0.5);
+ } 
+ 
+#influence  {
+	font-size:20px;
+	top:200px;
+	right:7%;
+	position:absolute;
+	border: 0;
+	color:white;
+	width: 750px;
+	min-width: 650px;
+	max-width: 900px; 
+	padding: 20px 40px 60px 40px;
+	border-radius: 20px;
+	overflow: auto;
+	z-index:10;
+	background: rgba(28,4,23,0.5);
+ } 
+ 
+/* ID Selector: menu */
+#menu {
+	font-size:18px;
+	position: relative;
+	color:white;
+	overflow: auto;
+	padding:8px;
+	padding-right:0;
+	padding-left:0;
+	border-radius:0;
+}
+
+/* Descendant Selector: menu li */
+#menu li {
+	
+	margin-left: 40px;
+	margin-top:8px;
+	float: left;
+	list-style: none;
+	text-align: center;
+}
+
+/* Descendant Selector: menu li a*/
+#menu li a {
+
+	text-decoration: none;
+	padding: 5px 0;
+	color: white;
+}
+
+/* Descendant Selector: menu li a:hover */
+#menu li a:hover {
+	background: white;
+	color: black;
+}
+
+/* Type Selector: a:link */
+#link a:link{
+font-weight : bold ;
+text-decoration : none ;
+color : white ;
+}
+
+/* Type Selector: a:visited */
+#link a:visited {
+font-weight : bold ;
+text-decoration : none ;
+color : #c30 ;
+}
+
+/* Type Selector: a:hover */
+#link a:hover {
+font-weight : bold ;
+text-decoration : underline ;
+color : #f60 ;
+}
+
+/* Type Selector: a:active */
+#link a:active {font-weight : bold ;
+text-decoration : none ;
+color : #F90 ;
+} 
+
+/* Media queries */
+@media (max-width: 1200px) {
+  header {
+   height:100px;
+  }
+  #logo1{
+	margin-top:17px;
+  }
+  #logo2{
+	margin-top:23px;
+  }
+  
+  #headerbox{
+  min-width:800px;
+  }
+  
+}
+/* Media queries */
+@media (max-width: 600px) {
+ header {
+   height:100px;
+ }
+  
+#overview{
+	font-size:18px;
+	position: relative;
+	width:400px;
+	min-width:400px;
+	max-width:400px;
+	height:auto;
+	top:150px;
+	margin-left:-30px;
+   }
+#awards{
+	font-size:18px;
+	position: relative;
+	width:400px;
+	min-width:400px;
+	max-width:400px;
+	top:150px;
+	margin-left:40px;
+   }
+#awards li{
+	width:300px;
+	float:left;
+	margin-left:0;
+	
+   }
+   
+#discography{
+	font-size:18px;
+	position: relative;
+	width:400px;
+	min-width:400px;
+	max-width:400px;
+	top:150px;
+	margin-left:40px;
+   }
+   
+#musicianship{
+	font-size:18px;
+	position: relative;
+	width:400px;
+	min-width:400px;
+	max-width:400px;
+	top:150px;
+	margin-left:-8px;
+	height:700px;
+   }
+   
+#influence{
+	font-size:18px;
+	position: relative;
+	width:4500px;
+	min-width:450px;
+	max-width:450px;
+	top:150px;
+	margin-left:85px;
+	height:750px;
+   }
+   
+#logo1{
+	margin-top:17px;
+	margin-left:4px;
+	margin-right:-25px;
+  }
+#logo2{
+	display:none;
+  }
+  
+#headerbox{
+  min-width:650px;
+  }
+  
+}
+
